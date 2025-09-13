@@ -1327,7 +1327,15 @@ export default function Home() {
       <footer className="py-4 bg-white mb-12">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-base text-gray-500">
-            {t("footer.websiteDevelopment")}
+            {t("footer.websiteDevelopment")} -{" "}
+            <a
+              href="https://wa.me/77710798939"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 hover:text-red-600 transition-colors duration-300"
+            >
+              Web Alchin
+            </a>
           </p>
         </div>
       </footer>

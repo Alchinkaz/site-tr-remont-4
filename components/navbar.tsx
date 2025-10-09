@@ -48,7 +48,7 @@ export default function Navbar() {
               <div className="flex-shrink-0">
                 <a href="#" onClick={handleLogoClick} className="flex items-center">
                   <img
-                    src="https://alchinkaz.github.io/db-tr-remont/assets/tr-remont-logo.svg"
+                    src="/tr-remont-logo.svg"
                     alt="Orda Premium Burabay"
                     className="h-9 md:h-9 lg:h-10 xl:h-10 2xl:h-10 w-auto object-contain"
                     style={{ maxWidth: "200px" }}
@@ -177,7 +177,7 @@ export default function Navbar() {
                     <div className="flex-shrink-0">
                       <a href="#" onClick={handleLogoClick} className="flex items-center">
                         <img
-                          src="https://alchinkaz.github.io/db-tr-remont/assets/tr-remont-logo.svg"
+                          src="/tr-remont-logo.svg"
                           alt="Orda Premium Burabay"
                           className="h-9 md:h-9 lg:h-10 xl:h-10 2xl:h-10 w-auto object-contain"
                           style={{ maxWidth: "200px" }}

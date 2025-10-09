@@ -38,12 +38,12 @@ export default function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
   const workImages = [
-    "https://alchinkaz.github.io/db-tr-remont/assets/our-works.jpg",
-    "https://alchinkaz.github.io/db-tr-remont/assets/work-1.jpg",
-    "https://alchinkaz.github.io/db-tr-remont/assets/work-2.jpg",
-    "https://alchinkaz.github.io/db-tr-remont/assets/work-3.jpg",
-    "https://alchinkaz.github.io/db-tr-remont/assets/work-4.jpg",
-    "https://alchinkaz.github.io/db-tr-remont/assets/work-5.jpg",
+    "/our-works.jpg",
+    "/work-1.jpg",
+    "/work-2.jpg",
+    "/work-3.jpg",
+    "/work-4.jpg",
+    "/work-5.jpg",
   ]
 
   const openGallery = (index = 0) => {
@@ -66,7 +66,7 @@ export default function Home() {
   const tariffData = {
     STANDART: {
       name: "STANDART",
-      image: "https://alchinkaz.github.io/db-tr-remont/assets/standart.png",
+      image: "/standart.png",
       guarantee: "1 год",
       priceWithMaterials: "130 000 ₸/м²",
       priceWithoutMaterials: "45 000 ₸/м²",
@@ -113,7 +113,7 @@ export default function Home() {
     },
     COMFORT: {
       name: "COMFORT",
-      image: "https://alchinkaz.github.io/db-tr-remont/assets/comfort.jpg",
+      image: "/comfort.jpg",
       guarantee: "2 года",
       priceWithMaterials: "160 000 ₸/м²",
       priceWithoutMaterials: "53 000 ₸/м²",
@@ -166,7 +166,7 @@ export default function Home() {
     },
     PREMIUM: {
       name: "PREMIUM",
-      image: "https://alchinkaz.github.io/db-tr-remont/assets/premium.jpg",
+      image: "/premium.jpg",
       guarantee: "3 года",
       priceWithMaterials: "270 000 ₸/м²",
       priceWithoutMaterials: "85 000 ₸/м²",
@@ -311,17 +311,17 @@ export default function Home() {
         {
           value: "apartment",
           label: t("quiz.questions.1.options.apartment"),
-          image: "https://alchinkaz.github.io/db-tr-remont/assets/flat.jpeg",
+          image: "/flat.jpeg",
         },
         {
           value: "house",
           label: t("quiz.questions.1.options.house"),
-          image: "https://alchinkaz.github.io/db-tr-remont/assets/house.jpg",
+          image: "/house.jpg",
         },
         {
           value: "other",
           label: t("quiz.questions.1.options.other"),
-          image: "https://alchinkaz.github.io/db-tr-remont/assets/over.png",
+          image: "/over.png",
         },
       ],
     },
@@ -564,7 +564,7 @@ export default function Home() {
       {/* Hero Section */}
       <section
         className="pt-32 md:pt-36 pb-8 relative bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url(https://alchinkaz.github.io/db-tr-remont/assets/bg-1.jpg)" }}
+        style={{ backgroundImage: "url(/bg-1.jpg)" }}
       >
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -647,7 +647,7 @@ export default function Home() {
             <div className="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
               <div className="aspect-[4/3] overflow-hidden">
                 <img
-                  src="https://alchinkaz.github.io/db-tr-remont/assets/standart.png"
+                  src="/standart.png"
                   alt="STANDART ремонт"
                   className="w-full h-full object-cover"
                 />
@@ -677,7 +677,7 @@ export default function Home() {
             <div className="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
               <div className="aspect-[4/3] overflow-hidden">
                 <img
-                  src="https://alchinkaz.github.io/db-tr-remont/assets/comfort.jpg"
+                  src="/comfort.jpg"
                   alt="COMFORT ремонт"
                   className="w-full h-full object-cover"
                 />
@@ -707,7 +707,7 @@ export default function Home() {
             <div className="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
               <div className="aspect-[4/3] overflow-hidden">
                 <img
-                  src="https://alchinkaz.github.io/db-tr-remont/assets/premium.jpg"
+                  src="/premium.jpg"
                   alt="PREMIUM ремонт"
                   className="w-full h-full object-cover"
                 />
@@ -819,7 +819,7 @@ export default function Home() {
                       </div>
 
                       <img
-                        src="https://alchinkaz.github.io/db-tr-remont/assets/2gis.svg"
+                        src="/2gis.svg"
                         alt="2ГИС"
                         className="w-10 h-10 opacity-70"
                       />
@@ -1057,7 +1057,7 @@ export default function Home() {
                 {/* Large Logo - moved to top left */}
                 <div className="flex justify-start">
                   <img
-                    src="https://alchinkaz.github.io/db-tr-remont/assets/tr-remont-logo.svg"
+                    src="/tr-remont-logo.svg"
                     alt="Orda Premium Burabay"
                     className="h-16 w-auto object-contain"
                     style={{ maxWidth: "300px" }}

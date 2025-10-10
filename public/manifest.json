@@ -1,0 +1,26 @@
+{
+  "name": "TR Remont - Ремонт квартир в Алматы",
+  "short_name": "TR Remont",
+  "description": "Современный ремонт квартиры или загородного дома под ключ в Алмате",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#dc2626",
+  "icons": [
+    {
+      "src": "/tr-favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
